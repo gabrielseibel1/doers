@@ -107,7 +107,7 @@ func main() {
 		}
 		slog.Info(p.String())
 
-		_, err := db.Exec(`INSERT INTO PIX (name, pix) VALUES ($1, $2);`, p.name, p.pix)
+		_, err := db.Exec(`INSERT INTO PIX (pix, name) VALUES ($1, $2);`, p.pix, p.name)
 		if err != nil {
 			slog.Error(err.Error())
 			w.WriteHeader(http.StatusInternalServerError)
