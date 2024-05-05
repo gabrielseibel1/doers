@@ -102,8 +102,8 @@ func main() {
 
 	http.DefaultServeMux.HandleFunc("/pedido", func(w http.ResponseWriter, r *http.Request) {
 		p := pix{
-			r.FormValue("name"),
-			r.FormValue("pix"),
+			name: r.FormValue("name"),
+			pix:  r.FormValue("pix"),
 		}
 		slog.Info(p.String())
 
