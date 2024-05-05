@@ -50,6 +50,10 @@ func main() {
 		fmt.Fprintf(w, `
 		<!DOCTYPE html>
 		<html>
+		<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		</head>
+
 		<body>
 		
 		<h2>Doação por PIX para o RS</h2>
@@ -73,6 +77,10 @@ func main() {
 		fmt.Fprintf(w, `
 		<!DOCTYPE html>
 		<html>
+		<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		</head>
+
 		<body>
 		
 		<h2>Peça um Doação por PIX</h2>
@@ -108,6 +116,10 @@ func main() {
 		fmt.Fprintf(w, `
 		<!DOCTYPE html>
 		<html>
+		<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		</head>
+
 		<body>
 		
 		<p>Pedido registrado com sucesso.</p>
@@ -157,6 +169,10 @@ func main() {
 		fmt.Fprintf(w, `
 		<!DOCTYPE html>
 		<html>
+		<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		</head>
+
 		<body>
 		
 		<h2>Faça um PIX</h2>
